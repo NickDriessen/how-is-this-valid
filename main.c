@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int array[5] = {13, 12, 19, 420, 69};
 
@@ -9,4 +9,6 @@ int main()
     printf("%d\n", *(array + 1));
     printf("%d\n", *(array + 1 + 2));
     printf("%d\n", *(array + 2 * 2));
+
+    return 0;
 }
